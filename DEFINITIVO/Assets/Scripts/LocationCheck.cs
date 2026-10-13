@@ -691,8 +691,8 @@ public class LocationServiceManager : MonoBehaviour
 
     private bool CanActivateCursoDagua()
     {
-        return visitedAreas.Contains("Serrapilheira") ||
-               visitedAreas.Contains("Subosque") ||
+        return visitedAreas.Contains("Serrapilheira") &&
+               visitedAreas.Contains("Subosque") &&
                visitedAreas.Contains("Dossel");
     }
 
