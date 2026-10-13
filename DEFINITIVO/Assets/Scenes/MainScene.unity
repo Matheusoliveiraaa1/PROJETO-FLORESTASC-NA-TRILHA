@@ -866,6 +866,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1205,6 +1206,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1625,6 +1627,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -1965,6 +1968,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2199,6 +2203,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -2431,6 +2436,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -3094,6 +3100,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -3409,6 +3416,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -3792,7 +3800,6 @@ MonoBehaviour:
   m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
-  m_Version: 2
   m_TaaSettings:
     m_Quality: 3
     m_FrameInfluence: 0.1
@@ -3800,6 +3807,7 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+  m_Version: 2
 --- !u!1 &331457340
 GameObject:
   m_ObjectHideFlags: 0
@@ -3985,6 +3993,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -4445,6 +4454,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -4686,14 +4696,14 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
   m_Enabled: 1
-  serializedVersion: 11
+  serializedVersion: 12
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 2
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
+  m_CookieSize2D: {x: 10, y: 10}
   m_Shadows:
     m_Type: 2
     m_Resolution: -1
@@ -4770,17 +4780,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Version: 3
   m_UsePipelineSettings: 1
   m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_RenderingLayers: 1
   m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_ShadowRenderingLayers: 1
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 1
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1 &414891599
 GameObject:
   m_ObjectHideFlags: 0
@@ -5186,6 +5202,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -5473,6 +5490,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -5609,6 +5627,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -5745,6 +5764,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -7685,6 +7705,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -7930,6 +7951,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -8369,6 +8391,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -8505,6 +8528,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -8641,6 +8665,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -8935,6 +8960,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -9662,6 +9688,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -9987,6 +10014,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -10482,6 +10510,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -10692,6 +10721,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -11040,6 +11070,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -11296,6 +11327,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -11535,6 +11567,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -12369,6 +12402,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -12636,7 +12670,7 @@ MonoBehaviour:
   stickerNotificationImage: {fileID: 1323261248}
   areaTeste: 0
   detectionRadius: 0
-  entryDetectionRadius: 10000
+  entryDetectionRadius: 1e+13
   notificationDuration: 3
   accuracyMultiplier: 0.8
   maxGpsRadius: 30
@@ -12706,7 +12740,7 @@ MonoBehaviour:
     areaName: Subosque
     stickerIndex: 3
     entryMode: 0
-    detectionRadius: 15
+    detectionRadius: 12
   - ID: Coleta6
     latitude: -26.920925
     longitude: -49.074908
@@ -12747,6 +12781,14 @@ MonoBehaviour:
     stickerIndex: 4
     entryMode: 0
     detectionRadius: 10
+  - ID: Coleta11
+    latitude: 0
+    longitude: 0
+    message: 
+    areaName: CursoDagua
+    stickerIndex: 5
+    entryMode: 0
+    detectionRadius: 10
   entry1:
     entryName: Entrada1
     latitude: -26.921272
@@ -12759,7 +12801,7 @@ MonoBehaviour:
   gpsDisabledPanel: {fileID: 1725178816}
   videoLatitude: -26.92052
   videoLongitude: -49.07589
-  videoDetectionRadius: 15
+  videoDetectionRadius: 12
   videoFileName: PosBambuzal.mp4
 --- !u!224 &1103364858
 RectTransform:
@@ -12967,7 +13009,7 @@ MonoBehaviour:
   epifitasStickers:
   - {fileID: 21300000, guid: de4020fb064351d4daa74a0c4a1d1bd4, type: 3}
   - {fileID: 21300000, guid: d5ceaec2e53b50e4d8e9223562ce42b2, type: 3}
-  - {fileID: 21300000, guid: 0f91da6d00148574f9a5104cdac10ef1, type: 3}
+  - {fileID: 21300000, guid: b5be9746e13ed2b498a727f9bde535f1, type: 3}
   - {fileID: 21300000, guid: c7746fad7647b4140adbcb6622f425b9, type: 3}
   - {fileID: 21300000, guid: 65f3d4eca75ff6c45b5ee82457e6527b, type: 3}
   serrapilheiraStickers:
@@ -13112,12 +13154,13 @@ MonoBehaviour:
     stickerSprite: {fileID: 21300000, guid: c7746fad7647b4140adbcb6622f425b9, type: 3}
     description: "Vive em brom\xE9lias e nelas cria seus filhotes. \xC9 sens\xEDvel
       \xE0s mudan\xE7as do ambiente e indica equil\xEDbrio ecol\xF3gico."
-  - commonName: Musgo
+  - commonName: "L\xEDquen"
     scientificName: 
-    realPhoto: {fileID: 21300000, guid: 68cb51f1529b32c46b7ada2e599b7b7f, type: 3}
-    stickerSprite: {fileID: 21300000, guid: 0f91da6d00148574f9a5104cdac10ef1, type: 3}
-    description: "Pequeno e delicado, cresce onde h\xE1 umidade. Ret\xE9m \xE1gua
-      e prepara o solo para novas plantas. "
+    realPhoto: {fileID: 21300000, guid: 7fec57bc58beeee41ae2df39d15a81d2, type: 3}
+    stickerSprite: {fileID: 21300000, guid: b5be9746e13ed2b498a727f9bde535f1, type: 3}
+    description: "Organismos formados pela uni\xE3o (simbiose) entre fungos e algas.
+      Por serem sens\xEDveis \xE0 polui\xE7\xE3o, funcionam como bioindicadores,
+      revelando a qualidade do ar e a umidade de ambientes preservados."
   - commonName: "Orqu\xEDdea"
     scientificName: Cattleya purpurata
     realPhoto: {fileID: 21300000, guid: b1ca91e7902d56143ace7e13be2b9029, type: 3}
@@ -13209,7 +13252,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 05bfde42574703c4998b6ad56d2ee4c8, type: 3}
   - {fileID: 21300000, guid: bb4dba59b6181f4478ed055e6020ceb4, type: 3}
   - {fileID: 21300000, guid: e10c79eb4ebc0c2459ee7202c6b93836, type: 3}
-  - {fileID: 21300000, guid: 0f91da6d00148574f9a5104cdac10ef1, type: 3}
+  - {fileID: 21300000, guid: b5be9746e13ed2b498a727f9bde535f1, type: 3}
   - {fileID: 21300000, guid: de4020fb064351d4daa74a0c4a1d1bd4, type: 3}
   - {fileID: 21300000, guid: e7218cacb5d2d434880bb7afd2ef0d7e, type: 3}
   - {fileID: 21300000, guid: 29b44e0a7e9c1754685e543ca52e05b3, type: 3}
@@ -13691,6 +13734,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -13825,6 +13869,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -14511,6 +14556,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -14674,6 +14720,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -14879,6 +14926,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -15354,117 +15402,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1302004162}
-  - component: {fileID: 1302004160}
+  - component: {fileID: 1302004163}
   m_Layer: 0
-  m_Name: BackgroundManager
+  m_Name: LocationManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1302004160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1302004159}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8752d505675804b498d41e5b9a4a102f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destinationPoints:
-  - name: CursoDagua
-    latitude: -26.92104
-    longitude: -49.07204
-    radius: 22
-    type: 0
-  - name: Epifitas
-    latitude: -26.92128
-    longitude: -49.07336
-    radius: 22
-    type: 0
-  - name: Serrapilheira
-    latitude: -26.92136
-    longitude: -49.07263
-    radius: 22
-    type: 0
-  - name: Dossel
-    latitude: -26.921367
-    longitude: -49.075164
-    radius: 22
-    type: 0
-  - name: Subosque
-    latitude: -26.921064
-    longitude: -49.07395
-    radius: 22
-    type: 0
-  - name: Coleta1
-    latitude: -26.921272
-    longitude: -49.071814
-    radius: 20
-    type: 1
-  - name: Coleta2
-    latitude: -26.921447
-    longitude: -49.072914
-    radius: 22
-    type: 1
-  - name: Coleta3
-    latitude: -26.921339
-    longitude: -49.073961
-    radius: 22
-    type: 1
-  - name: Coleta4
-    latitude: -26.921347
-    longitude: -49.074342
-    radius: 22
-    type: 1
-  - name: Coleta5
-    latitude: -26.920503
-    longitude: -49.075869
-    radius: 22
-    type: 1
-  - name: Coleta6
-    latitude: -26.920925
-    longitude: -49.074908
-    radius: 22
-    type: 1
-  - name: Coleta7
-    latitude: -26.921083
-    longitude: -49.073208
-    radius: 22
-    type: 1
-  - name: Coleta8
-    latitude: -26.921039
-    longitude: -49.072347
-    radius: 22
-    type: 1
-  - name: VideoPoint
-    latitude: -26.920278
-    longitude: -49.075833
-    radius: 24
-    type: 2
-  - name: Coleta9
-    latitude: -26.921297
-    longitude: -49.072281
-    radius: 20
-    type: 1
-  - name: Coleta10
-    latitude: -26.921389
-    longitude: -49.073169
-    radius: 20
-    type: 1
-  - name: ColetaTESTE
-    latitude: -26.90591
-    longitude: -49.07959
-    radius: 30
-    type: 0
-  - name: ColetaTESTE2
-    latitude: -26.90567
-    longitude: -49.07912
-    radius: 30
-    type: 1
 --- !u!4 &1302004162
 Transform:
   m_ObjectHideFlags: 0
@@ -15480,6 +15425,100 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1302004163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1302004159}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8752d505675804b498d41e5b9a4a102f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LocationBridge
+  waypoints:
+  - nome: CursoDagua
+    lat: -26.92104
+    lng: -49.07204
+    radius: 22
+    tipo: 1
+  - nome: Epifitas
+    lat: -26.92128
+    lng: -49.07336
+    radius: 22
+    tipo: 1
+  - nome: Serrapilheira
+    lat: -26.92136
+    lng: -49.07263
+    radius: 22
+    tipo: 1
+  - nome: Dossel
+    lat: -26.921367
+    lng: -49.075164
+    radius: 22
+    tipo: 1
+  - nome: Subosque
+    lat: -26.921064
+    lng: -49.07395
+    radius: 22
+    tipo: 1
+  - nome: coleta1
+    lat: -26.921272
+    lng: -49.071814
+    radius: 20
+    tipo: 0
+  - nome: coleta2
+    lat: -26.921447
+    lng: -49.072914
+    radius: 22
+    tipo: 0
+  - nome: coleta3
+    lat: -26.921339
+    lng: -49.073961
+    radius: 22
+    tipo: 0
+  - nome: coleta4
+    lat: -26.921347
+    lng: -49.074342
+    radius: 22
+    tipo: 0
+  - nome: coleta5
+    lat: -26.920503
+    lng: -49.075869
+    radius: 22
+    tipo: 0
+  - nome: coleta6
+    lat: -26.920925
+    lng: -49.074908
+    radius: 22
+    tipo: 0
+  - nome: coleta7
+    lat: 26.921083
+    lng: -49.073208
+    radius: 22
+    tipo: 0
+  - nome: coleta8
+    lat: -26.921039
+    lng: -49.072347
+    radius: 22
+    tipo: 0
+  - nome: coleta9
+    lat: -26.921297
+    lng: -49.072281
+    radius: 22
+    tipo: 0
+  - nome: coleta10
+    lat: -26.921389
+    lng: -49.073169
+    radius: 22
+    tipo: 0
+  - nome: VideoArea
+    lat: -26.92052
+    lng: -49.07589
+    radius: 22
+    tipo: 2
+  locationText: {fileID: 0}
 --- !u!1 &1303499750
 GameObject:
   m_ObjectHideFlags: 0
@@ -16358,6 +16397,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -17393,6 +17433,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -17529,6 +17570,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -17851,6 +17893,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -17987,6 +18030,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -18123,6 +18167,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -18455,6 +18500,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -18599,6 +18645,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -18744,6 +18791,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -18899,6 +18947,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -19035,6 +19084,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -19526,6 +19576,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -19719,6 +19770,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -19875,6 +19927,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -20011,6 +20064,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -20505,6 +20559,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -20751,6 +20806,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -21087,6 +21143,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -22810,6 +22867,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -23113,6 +23171,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -24082,6 +24141,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -24959,6 +25019,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -25190,6 +25251,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -25326,6 +25388,7 @@ MonoBehaviour:
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -25916,6 +25979,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
@@ -26052,6 +26116,7 @@ MonoBehaviour:
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
+  m_characterHorizontalScale: 1
   m_wordSpacing: 0
   m_lineSpacing: 0
   m_lineSpacingMax: 0
